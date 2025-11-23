@@ -1,4 +1,4 @@
-# 🚀 Three.js Interactive Portfolio
+# Three.js Interactive Portfolio
 
 [![React](https://img.shields.io/badge/React-19.1.1-blue.svg)](https://reactjs.org/)
 [![Three.js](https://img.shields.io/badge/Three.js-0.180.0-black.svg)](https://threejs.org/)
@@ -9,40 +9,40 @@ A cutting-edge, immersive 3D portfolio website built with modern web technologie
 
 ![Portfolio Preview](./public/assets/grid1.png)
 
-## 🌟 Live Demo
+##  Live Demo
 
 [🔗 View Live Portfolio](https://my-portfolio-gaurav-yadavs-projects-fc7d13e8.vercel.app/)
 
-## ✨ Key Features
+##  Key Features
 
-### 🎮 Interactive 3D Environment
+### Interactive 3D Environment
 
 - **Immersive Hacker Room**: Fully interactive 3D workspace with detailed models
 - **Animated 3D Objects**: Floating React logo, rotating cube, orbiting rings, and target with physics
 - **Responsive Camera Controls**: Mouse-controlled camera with smooth easing
 - **Real-time Animations**: GSAP-powered transitions and object movements
 
-### 📱 Responsive Design
+### Responsive Design
 
 - **Mobile-First Approach**: Optimized for all screen sizes (440px - 4K+)
 - **Adaptive 3D Scaling**: Objects reposition and scale based on viewport
 - **Touch-Friendly**: Mobile-optimized interactions and navigation
 
-### 🎯 Advanced Components
+### Advanced Components
 
 - **Project Showcase**: Interactive carousel with 3D computer model displaying project videos
 - **Education Timeline**: Animated developer character with hover-triggered animations
 - **Contact Integration**: Functional EmailJS-powered contact form
 - **Loading States**: Custom canvas loader with progress indicators
 
-### 🎨 Modern UI/UX
+### Modern UI/UX
 
 - **Dark Theme**: Professional black background with gradient accents
 - **Custom Animations**: Waving hand emoji, button hover effects, and micro-interactions
 - **Typography**: Custom "General Sans" font with gradient text effects
 - **Smooth Scrolling**: Enhanced navigation with section anchors
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Core Framework
 
@@ -71,7 +71,7 @@ A cutting-edge, immersive 3D portfolio website built with modern web technologie
 - **Leva** - Development GUI controls
 - **React DOM 19.1.1** - React DOM rendering
 
-## 📁 Project Architecture
+## Project Architecture
 
 ```
 portfolio/
@@ -111,7 +111,7 @@ portfolio/
 └── README.md            # Project documentation
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -159,7 +159,7 @@ npm run preview
 npm run lint
 ```
 
-## 🎨 Customization Guide
+## Customization Guide
 
 ### Adding New Projects
 
@@ -217,7 +217,7 @@ const templateId = "your-template-id";
 const publicKey = "your-public-key";
 ```
 
-## 📱 Component Breakdown
+## Component Breakdown
 
 ### 3D Components
 
@@ -245,7 +245,7 @@ const publicKey = "your-public-key";
 - **Navbar**: Responsive navigation with mobile menu
 - **Footer**: Social links and copyright
 
-## 🎯 Performance Optimizations
+## Performance Optimizations
 
 - **Lazy Loading**: 3D models loaded on demand
 - **Texture Optimization**: Compressed textures and efficient formats
@@ -253,7 +253,7 @@ const publicKey = "your-public-key";
 - **Responsive Scaling**: Reduced geometry on mobile devices
 - **Code Splitting**: Vite's automatic chunk splitting
 
-## 🌐 Deployment
+## Deployment
 
 ### Recommended: Vercel
 
@@ -274,7 +274,7 @@ npm run build
 # Upload 'dist' folder to your hosting provider
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -289,7 +289,7 @@ npm run build
 - Test on multiple screen sizes
 - Optimize 3D assets for web
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **3D Models**: Custom-designed assets optimized for web
 - **Animations**: FBX animations from Mixamo
