@@ -56,6 +56,44 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: "Railway Reservation System",
+    desc: "A scalable full-stack railway reservation platform built using Spring Boot Microservices, ReactJS, Hibernate, and MySQL. The system consists of six independently deployable microservices for modular, maintainable, and efficient application architecture.",
+    subdesc:
+      "Implemented secure role-based authentication using Spring Security and JWT, developed and tested 15+ REST APIs with Postman for booking, payment, and reservation workflows, and integrated Eureka Server with OpenFeign for seamless service discovery and inter-service communication across all microservices.",
+    href: "https://github.com/your-username/railway-reservation-system",
+    // texture: "/textures/project/railway-demo-video.mp4",
+    texture: "/textures/project/project2.mp4",
+    logo: "/assets/railway.png",
+    logoStyle: {
+      backgroundColor: "#0f172a",
+      border: "0.2px solid #1e293b",
+      boxShadow: "0px 0px 60px 0px #334155",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "Spring Boot",
+        path: "/assets/springboot.svg",
+      },
+      {
+        id: 2,
+        name: "ReactJS",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 3,
+        name: "MySQL",
+        path: "/assets/mysql.svg",
+      },
+      {
+        id: 4,
+        name: "Hibernate",
+        path: "/assets/hibernate.svg",
+      }
+    ],
+  },
+  {
     title: "DolphinAI - Multi-Modal AI Image Generation Suite",
     desc: "DolphinAI is an advanced AI-powered platform featuring three distinct generation modes: text-to-image synthesis using Stable Diffusion XL, voice-enabled image creation with Web Speech API, and intelligent image captioning powered by Salesforce BLIP. It demonstrates seamless integration of multiple AI models in a production-ready web application.",
     subdesc:
@@ -125,39 +163,39 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
     deskPosition: isSmall
       ? [0, -4, 0]
       : isMobile
-      ? [0.5, -4.5, 0]
-      : isTablet
-      ? [0.25, -5, 0]
-      : [0.25, -9, 0],
+        ? [0.5, -4.5, 0]
+        : isTablet
+          ? [0.25, -5, 0]
+          : [0.25, -9, 0],
 
     cubePosition: isSmall
       ? [4, -8, 0]
       : isMobile
-      ? [5, -8, 0]
-      : isTablet
-      ? [5, -8, 0]
-      : [11, -8.5, 0],
+        ? [5, -8, 0]
+        : isTablet
+          ? [5, -8, 0]
+          : [11, -8.5, 0],
     reactLogoPosition: isSmall
       ? [3, 4, 0]
       : isMobile
-      ? [5, 4, 0]
-      : isTablet
-      ? [5, 4, 0]
-      : [12, 3, 0],
+        ? [5, 4, 0]
+        : isTablet
+          ? [5, 4, 0]
+          : [12, 3, 0],
     ringPosition: isSmall
       ? [-10, 22, 0]
       : isMobile
-      ? [-15, 20, 0]
-      : isTablet
-      ? [-22, 18, 0]
-      : [-30, 17, 0],
+        ? [-15, 20, 0]
+        : isTablet
+          ? [-22, 18, 0]
+          : [-30, 17, 0],
     targetPosition: isSmall
       ? [-5, 0, -10]
       : isMobile
-      ? [-10, -10, -10]
-      : isTablet
-      ? [-14, -7, -10]
-      : [-17, -16, -10],
+        ? [-10, -10, -10]
+        : isTablet
+          ? [-14, -7, -10]
+          : [-17, -16, -10],
   };
 };
 
