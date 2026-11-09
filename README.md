@@ -11,7 +11,7 @@ A cutting-edge, immersive 3D portfolio website built with modern web technologie
 
 ##  Live Demo
 
-[🔗 View Live Portfolio](https://my-portfolio-gaurav-yadavs-projects-fc7d13e8.vercel.app/)
+[🔗 View Live Portfolio](https://portfolio-tech-gaurav.vercel.app/)
 
 ##  Key Features
 
